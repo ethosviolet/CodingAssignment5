@@ -1,0 +1,76 @@
+
+body {background-image: url("../images/Nanaimo_CityView.jpeg"); 
+background-size: cover ;}
+h1 {text-align: center;
+font-family: Oregano;
+font-size: 50px;}
+h1 span{background-color: #ff0000;
+border-radius: 25px;
+text-shadow: 2px 2px 4px white;
+margin: auto;
+}
+h2 {font-family: Oregano;
+font-size: 32px;
+text-align: center;}
+h2 span {background-color: hsl(0, 0%, 100%);
+border-radius: 25px;
+text-shadow: 2px 2px 4px red;
+margin: auto;}
+h3 {font-family: Oregano;
+font-size: 24px;
+text-align: center;}
+h3 span {background-color: red;
+border-radius: 25px;
+text-shadow: 2px 2px 4px white;}
+p {font-family: Didact Gothic;
+justify-content: center;}
+figure {display: block;
+justify-content: center; }
+.outer {display: block;
+text-align: center;}
+img {max-width: 250px;
+width: 100%;
+height: auto;
+object-fit: contain;}
+figcaption {font-family: Didact Gothic;
+background-color: rgba(255, 255, 255, 0.75);
+text-align: center;
+margin-left: auto;
+margin-right: auto;}
+ul {font-family: Didact Gothic;}
+.listformat 
+{border: solid rgba(0, 0, 0, 0.75);
+background-color: rgba(255, 255, 255, 0.75);
+padding: 10px; 
+border-radius: 30px;
+display: inline-block;}
+li {font-family: Didact Gothic;}
+li span {background-color:#ffff00ca;
+border-radius: 5px;}
+ol {font-family: Didact Gothic;}
+input {font-family: Didact Gothic;}
+fieldset{background-color: rgba(255, 255, 255, 0.75);}
+legend {font-family: Didact Gothic;
+background-color: #ffff00ca;
+display: inline-block;}
+footer {text-align: center;}
+footer span {
+display: inline-block;
+border: solid rgba(0, 0, 0, 0.75);
+background-color: rgba(255, 255, 255, 0.75);
+border-radius: 25px;}
+p span { display: inline-block;
+border: solid rgba(0, 0, 0, 0.75);
+background-color: rgba(255, 255, 255, 0.75);
+border-radius: 25px;}
+p {text-align: center;}
+a {text-align: center;}
+.linkformat {display: inline-block;
+border: solid rgba(0, 0, 0, 0.75);
+background-color: rgba(255, 255, 255, 0.75);
+border-radius: 25px;}
+.container-fluid {box-sizing: border-box;}
+[class="col"] {float:left;}
+.row::after {content:"";
+clear: both;
+display: block;}
